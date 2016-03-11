@@ -1,6 +1,6 @@
 # Buff
 
-    The buff can reduce your development time, has the following features (support api >= 8):
+   The buff can reduce your development time, has the following features (support api >= 8):
     * pull down to refresh
     * pull up to load more
     * show loading view
@@ -10,19 +10,19 @@
     
 ### show views
 
-    <img src="https://raw.githubusercontent.com/nukc/buff/master/art/showViews.gif">
+   <img src="https://raw.githubusercontent.com/nukc/buff/master/art/showViews.gif">
     
 ### refresh / load more 
 
-    * Mode: outside (default)
+   * Mode: outside (default)
     
-    <img src="https://raw.githubusercontent.com/nukc/buff/master/art/ouside.gif">
+   <img src="https://raw.githubusercontent.com/nukc/buff/master/art/ouside.gif">
      
-    * Mode: inside 
-    the refresh is [Yalantis/Phoenix](https://github.com/Yalantis/Phoenix) style
-    if you want to use the refresh/loadmore style, you can see the sample project
+   * Mode: inside 
+   the refresh is [Yalantis/Phoenix](https://github.com/Yalantis/Phoenix) style
+   if you want to use the refresh/loadmore style, you can see the sample project
     
-    <img src="https://raw.githubusercontent.com/nukc/buff/master/art/inside.gif">
+   <img src="https://raw.githubusercontent.com/nukc/buff/master/art/inside.gif">
     
 ## Usage
 
