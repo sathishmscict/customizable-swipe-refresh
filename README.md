@@ -19,7 +19,8 @@
    <img src="https://raw.githubusercontent.com/nukc/buff/master/art/outside.gif">
      
    * Mode: inside 
-   the refresh is [Yalantis/Phoenix](https://github.com/Yalantis/Phoenix) style
+   the refresh is [Yalantis/Phoenix](https://github.com/Yalantis/Phoenix) style 
+   
    if you want to use the refresh/loadmore style, you can see the sample project
     
    <img src="https://raw.githubusercontent.com/nukc/buff/master/art/inside.gif">
@@ -100,7 +101,7 @@
    
    
 
-##Customization
+## Customization
 
    you can implements IPullUIHandler to customize refresh/loadmore style:
    
@@ -123,7 +124,7 @@
    
    ```
    
-##Custom Attribute
+## Custom Attribute
 
     ```xml
     <resources>
@@ -139,7 +140,7 @@
    ```
    
    
-##License
+## License
 
     The MIT License (MIT)
     
