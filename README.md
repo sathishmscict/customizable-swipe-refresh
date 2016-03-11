@@ -96,8 +96,11 @@ The buff can reduce your development time, has the following features (support a
         }
    });
    
-   //Called when requesting data successfully
+   //Called when requesting data successfully (show content)
    mPageLayout.onRequestSuccess();
+   
+   //Called when requesting data failed (show retry view)
+   mPageLayout.onRequestFailure();
    
 ```
    
