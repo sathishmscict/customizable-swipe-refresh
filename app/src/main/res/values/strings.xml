@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Buff</string>
+    <string name="outside">Outside</string>
+    <string name="inside">Inside</string>
+</resources>

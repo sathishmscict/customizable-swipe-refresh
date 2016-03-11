@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PageLayout">
+        <attr name="loadRetryEnabled" format="boolean" />
+        <attr name="loadMoreEnabled" format="boolean" />
+        <attr name="layoutMode" format="enum">
+            <enum name="inside" value="0" />
+            <enum name="outside" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
