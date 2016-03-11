@@ -1,11 +1,11 @@
 # Buff
 
-   The buff can reduce your development time, has the following features (support api >= 8):
-    * pull down to refresh
-    * pull up to load more
-    * show loading view
-    * show retry view (show it when requesting data failed and setOnRetryClickListener)
-    * show empty view (when no data)
+The buff can reduce your development time, has the following features (support api >= 8):
+ > - pull down to refresh
+ > - pull up to load more
+ > -  show loading view
+ > -  show retry view (show it when requesting data failed and setOnRetryClickListener)
+ > -  show empty view (when no data)
     
     
 ### show views
