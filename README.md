@@ -16,7 +16,7 @@
 
    * Mode: outside (default)
     
-   <img src="https://raw.githubusercontent.com/nukc/buff/master/art/ouside.gif">
+   <img src="https://raw.githubusercontent.com/nukc/buff/master/art/outside.gif">
      
    * Mode: inside 
    the refresh is [Yalantis/Phoenix](https://github.com/Yalantis/Phoenix) style
