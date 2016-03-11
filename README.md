@@ -21,7 +21,8 @@ The buff can reduce your development time, has the following features (support a
    <img src="https://raw.githubusercontent.com/nukc/buff/master/art/outside.gif">
      
    * Mode: inside 
-   the refresh is [Yalantis/Phoenix](https://github.com/Yalantis/Phoenix) style 
+   
+   the sample refresh is [Yalantis/Phoenix](https://github.com/Yalantis/Phoenix) style 
    
    if you want to use the refresh/loadmore style, you can see the sample project
     
