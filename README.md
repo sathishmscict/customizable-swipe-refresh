@@ -125,6 +125,9 @@ The buff can reduce your development time, has the following features (support a
    can set own view
    
 ```java
+   mPageLayout.setHeaderView();
+   mPageLayout.setFooterView();
+
    mPageLayout.getLoadRetryLayout().setLoadingView( View/LayoutRes );
    //setRetryView() setEmptyView()
    
