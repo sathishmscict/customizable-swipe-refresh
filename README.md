@@ -29,7 +29,7 @@
    add the dependency to your build.gradle:
    ```
    dependencies {
-        compile 'com.github.nukc.amountview:library:1.0'
+        compile 'com.github.nukc.buff:library:1.0'
    }
    ```
    
