@@ -10,6 +10,8 @@ The buff can reduce your development time, has the following features (support a
     
 ### show views
 
+   * loading view and retry view
+   
    <img src="https://raw.githubusercontent.com/nukc/buff/master/art/showViews.gif">
     
 ### refresh / load more 
@@ -138,7 +140,10 @@ The buff can reduce your development time, has the following features (support a
         </declare-styleable>
     </resources>
    ```
-   
+
+## Thanks
+  * [SwipeRefreshLayout](https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html)
+  * [Yalantis/Phoenix](https://github.com/Yalantis/Phoenix)
    
 ## License
 
