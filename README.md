@@ -30,15 +30,15 @@ The buff can reduce your development time, has the following features (support a
 ## Usage
 
    add the dependency to your build.gradle:
-   ```
+```
    dependencies {
         compile 'com.github.nukc.buff:library:1.0'
    }
-   ```
+```
    
    add the PageLayout weight
    
-   ```xml
+```xml
    <com.github.nukc.buff.PageLayout 
        android:id="@+id/pageLayout"
        android:layout_width="match_parent"
@@ -50,11 +50,11 @@ The buff can reduce your development time, has the following features (support a
            android:layout_height="match_parent" />
    </com.github.nukc.buff.PageLayout>
   
-   ```
+```
    
    set in java code 
    
-   ```java
+```java
    
    //only pull down to refresh
    mPageLayout.setOnRefreshListener(new PageLayout.OnRefreshListener() {
@@ -84,11 +84,11 @@ The buff can reduce your development time, has the following features (support a
    //load more complete
    mPageLayout.setLoadingMore(false);
   
-    ```
+```
   
    set retry view click listener
    
-   ```java
+```java
    mPageLayout.setOnRetryClickListener(new LoadRetryLayout.OnRetryClickListener() {
         @Override
         public void onRetryClick(View v) {
@@ -99,7 +99,7 @@ The buff can reduce your development time, has the following features (support a
    //Called when requesting data successfully
    mPageLayout.onRequestSuccess();
    
-   ```
+```
    
    
 
@@ -107,7 +107,7 @@ The buff can reduce your development time, has the following features (support a
 
    you can implements IPullUIHandler to customize refresh/loadmore style:
    
-   ```java
+```java
    public interface IPullUIHandler {
        void onPulling(float scrollTop, int targetY, int totalDragDistance);
    
@@ -116,19 +116,19 @@ The buff can reduce your development time, has the following features (support a
        void onStop(float dragPercent);
    }
    
-   ```
+```
    
    can set own view
    
-   ```java
+```java
    mPageLayout.getLoadRetryLayout().setLoadingView( View/LayoutRes );
    //setRetryView() setEmptyView()
    
-   ```
+```
    
 ## Custom Attribute
 
-    ```xml
+```xml
     <resources>
         <declare-styleable name="PageLayout">
             <attr name="loadRetryEnabled" format="boolean" />
@@ -139,7 +139,7 @@ The buff can reduce your development time, has the following features (support a
             </attr>
         </declare-styleable>
     </resources>
-   ```
+```
 
 ## Thanks
   * [SwipeRefreshLayout](https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html)
