@@ -1,5 +1,10 @@
 language: android
 
+notifications:
+  email: false
+
+sudo: false
+
 android:
   components:
     - platform-tools
@@ -7,11 +12,5 @@ android:
     - android-23
     - extra
 
-after_script:
-    - cat ./demo/build/outputs/lint-results.xml
-    - cat ./library/build/outputs/lint-results.xml
-
-notifications:
-  email: false
-
-sudo: required
+before_script:
+ - chmod +x gradlew
