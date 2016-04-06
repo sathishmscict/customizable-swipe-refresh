@@ -8,14 +8,14 @@ sudo: false
 android:
   components:
     - platform-tools
-    - build-tools-23.0.3
+    - build-tools-23.0.2
     - android-23
     - extra
 
 before_install:
  - chmod +x gradlew
 
-dependencies:
-  pre:
-    - echo y | android update sdk --no-ui --all --filter "tools,platform-tools,android-23"
-    - echo y | android update sdk --no-ui --all --filter "build-tools-23.0.3"
+#dependencies:
+#  pre:
+#    - echo y | android update sdk --no-ui --all --filter "tools,platform-tools,android-23"
+#    - echo y | android update sdk --no-ui --all --filter "build-tools-23.0.3"
