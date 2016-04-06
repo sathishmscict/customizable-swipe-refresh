@@ -8,9 +8,9 @@ sudo: false
 android:
   components:
     - platform-tools
-    - build-tools-23.0.3
+    - build-tools-23.0.2
     - android-23
     - extra
 
 before_install:
- - chmod +x ./gradlew
+ - chmod +x gradlew
