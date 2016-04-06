@@ -64,8 +64,8 @@ artifacts {
 Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
 bintray {
-    user = properties.getProperty("bintray.user")
-    key = properties.getProperty("bintray.apikey")
+    user = project.hasProperty("bintray.user") ? properties.getProperty("bintray.user") : System.getenv("bintray.user")
+    key = project.hasProperty("bintray.apikey") ? properties.getProperty("bintray.apikey") : System.getenv("bintray.apikey")
     configurations = ['archives']
     pkg {
         repo = "maven"
