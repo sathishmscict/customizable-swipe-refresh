@@ -5,3 +5,7 @@ android:
     - build-tools-23.0.2
     - android-23
     - extra
+
+after_script:
+    - cat ./demo/build/outputs/lint-results.xml
+    - cat ./library/build/outputs/lint-results.xml
