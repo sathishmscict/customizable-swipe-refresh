@@ -7,17 +7,24 @@ sudo: false
 
 android:
   components:
-    - tools
     - build-tools-23.0.2
     - android-23
-    - extra
+    - extra-android-m2repository
+    - extra-android-support
 
 before_install:
  - chmod +x gradlew
 
-#dependencies:
-#  pre:
-#    - echo y | android update sdk --no-ui --all --filter "tools,platform-tools,android-23"
-#    - echo y | android update sdk --no-ui --all --filter "build-tools-23.0.2"
+script:
+  - ./gradlew assembleRelease
 
+before_deploy:
+  - mv app/build/outputs/apk/app-release.apk app/build/outputs/apk/buff.apk
 
+deploy:
+  provider: releases
+  api_key: "2f049e5fbec9e72844c73dd3ed3db38076f9f3be"
+  file: "FILE TO UPLOAD C"
+  skip_cleanup: true
+  on:
+    tags: true
