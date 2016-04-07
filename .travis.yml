@@ -25,7 +25,7 @@ before_deploy:
 deploy:
   provider: releases
   api_key:
-    secure: 2f049e5fbec9e72844c73dd3ed3db38076f9f3be
+    secure: 7f4dc45a19f742dce39cbe4d1e5852fb588593fd
   file: app/build/outputs/apk/buff.apk
   skip_cleanup: true
   on:

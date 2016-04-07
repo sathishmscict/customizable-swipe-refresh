@@ -1,5 +1,7 @@
 # Buff
 
+[![Build Status](https://travis-ci.org/nukc/Buff.svg?branch=master)](https://travis-ci.org/nukc/Buff)
+
 The buff can reduce your development time, has the following features (support api >= 8):
  > - pull down to refresh
  > - pull up to load more
