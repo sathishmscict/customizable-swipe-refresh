@@ -24,8 +24,9 @@ before_deploy:
 
 deploy:
   provider: releases
-  api_key: "2f049e5fbec9e72844c73dd3ed3db38076f9f3be"
-  file: "FILE TO UPLOAD C"
+  api_key:
+    secure: 2f049e5fbec9e72844c73dd3ed3db38076f9f3be
+  file: app/build/outputs/apk/buff.apk
   skip_cleanup: true
   on:
     tags: true
