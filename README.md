@@ -1,5 +1,6 @@
 # Buff
 
+[![Download](https://api.bintray.com/packages/nukc/maven/Buff/images/download.svg)](https://bintray.com/nukc/maven/Buff/_latestVersion)
 [![Build Status](https://travis-ci.org/nukc/Buff.svg?branch=master)](https://travis-ci.org/nukc/Buff)
 
 The buff can reduce your development time, has the following features (support api >= 8):
